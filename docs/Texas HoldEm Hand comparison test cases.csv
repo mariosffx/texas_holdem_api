@@ -1,0 +1,26 @@
+﻿Combination,community cards,player 1,hand 1,player 2,hand 2,result,comment
+High Card,D6  S9  H4 S3 C2,SK CA,CA SK S9 D6 H4,HA SQ,HA SQ S9 D6 H4,hand 1 > hand 2,SK > SQ
+High Card,D6  S9  H4 S3 C2,SK CA,CA SK S9 D6 H4,HA CK,HA SK S9 D6 H4,hand 1 = hand 2,
+High Card,D6  S9  H4  H3 H2,C7 DQ,DQ S9 C7 D6 H4,C8 DJ,DJ S9 C8 D6 H4,hand 1 > hand 2,DQ > DJ
+One Pair,SK HT C8 C7 D2,DK C5,DK SK HT C8 C7,H8 D5,H8 C8 SK HT C7,hand 1 > hand 2,K > 8
+One Pair,SK HT C8 C7 D2,DK C4,DK SK HT C8 C7,HK D5,HK SK HT C8 C7,hand 1 = hand 2,"K = K, ..."
+One Pair,HA DA ST C9 D4,D5 C6,HA DA ST C9 C6,H7 C2,HA DA ST C9 H7,hand 2 > hand 1,7 > 6
+Two Pairs,SA DQ CK  D6  H6,HA C3,HA SA D6 H6 CK,CQ H4,CQ DQ D6 H6 SA,hand 1 > hand 2,A > Q
+Two Pairs,SA DQ CK  D6  H6,HQ C3,HQ DQ D6 H6 SA,SQ H4,SQ DQ D6 H6 SA,hand 1 = hand 2,
+Two Pairs,SA DQ CK  D6  H5,HQ C6,HQ DQ C6 D6 SA,CA HK,CA SA HK CK DQ,hand 2 > hand 1,A > Q
+Three of a Kind,SA D3 H2 C8 SJ,HJ SJ,HJ SJ SJ SA C8,C3 H3,D3 H3 C3 SA SJ,hand 1 > hand 2,J > 3
+Three of a Kind,SA D3 H3 C8 SJ,C3 S2,D3 H3 C3 SA SJ,S3 H2,D3 H3 S3 SA SJ,hand 1 = hand 2,"3 = 3, ..."
+Three of a Kind,HA SA DA H3 HT,S2 S5,HA SA DA HT S5,H2 SK,HA SA DA SK HT,hand 2 > hand 1,K > T
+Straight,H3  S4  C5  S6  HT,D7 HA,H3  S4  C5  S6  D7,H2 SA,H2 H3  S4  C5  S6,hand 1 > hand 2,7 > 6
+Straight,H3  S4  C5  S6  HT,D7 HA,H3  S4  C5  S6  D7,H7 SA,H3  S4  C5  S6 H7,hand 1 = hand 2,7 = 7
+Straight,H2 H3  S4  C5  HT,HA S3,HA H2 H3  S4  C5,H6 SA,H2 H3  S4  C5 H6,hand 2 > hand 1,6 > 5
+Flush,D3 D6 DT C5 HQ,DK DA,D3 D6 DT DK DA,D2 DQ,D3 D6 DT D2 DQ,hand 1 > hand 2,A > Q
+Flush,D3 D6 DT C5 HQ,D2 D5,D3 D6 DT D2 D5,DJ DA,D3 D6 DT DJ DA,hand 2 > hand 1,A > 5
+Full House,HQ SQ HT DT C3,DQ C2,HQ SQ DQ HT DT,CT C4,HQ SQ HT DT CT,hand 1 > hand 2,3 times Q > 3 times T
+Full House,SA HQ SQ HT D8,HA DQ,HA SA DQ HQ SQ,DA CQ,DA SA CQ HQ SQ,hand 1 = hand 2,
+Full House,HQ SQ HT DT C3,ST C2,HQ SQ HT DT ST,CQ C4,HQ SQ CQ HT DT,hand 2 > hand 1,3 times Q > 3 times T
+Four of a Kind,HT ST CT DT HK,HA S7,HT ST CT DT HA,DJ C5,HT ST CT DT HK,hand 1 > hand 2,A > K
+Four of a Kind,HT ST CT DT S8,C2 C3,HT ST CT DT S8,C5 HK,HT ST CT DT HK,hand 2 > hand 1,K > 8
+Straight Flush,H3  H4  H5  H6  HT,H7 HA,H3  H4  H5  H6  H7,H2 SA,H2 H3  H4  H5  H6,hand 1 > hand 2,7 > 6
+Straight Flush,S7 S8 S9 ST DK,S6 C2,S6 S7 S8 S9 ST,SJ D5,S7 S8 S9 ST SJ,hand 2 > hand 1,J > T
+Royal Flush,DT DJ DQ DK DA,–,DT DJ DQ DK DA,–,DT DJ DQ DK DA,hand 1 = hand 2,two players can only have a Royal Flush if the Royal Flush is in the community cards
