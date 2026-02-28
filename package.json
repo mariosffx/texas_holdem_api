@@ -1,0 +1,15 @@
+{
+  "name": "texas_holdem_api",
+  "version": "1.0.0",
+  "description": "A Restful API for a Texas Hold'em poker game.",
+  "type": "module",
+  "scripts": {
+    "build": "go build .",
+    "start": "./texas_holdem_api",
+    "pm:deploy:production:setup": "pm2 deploy production setup",
+    "pm:deploy:production": "pm2 deploy production"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1"
+  }
+}
